@@ -14,6 +14,7 @@ var config = {
 	,devtool:'source-map'
 	,devServer:{
 		inline:true
+		,historyApiFallback: true
 		,contentBase :BUILD_PATH
 		,port:8000
 	}
